@@ -1,0 +1,6 @@
+﻿services:
+  autotestwithdocker:
+    image: autotestwithdocker
+    build:
+      context: .
+      dockerfile: AutoTestWithDocker/Dockerfile
